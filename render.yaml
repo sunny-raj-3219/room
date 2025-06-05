@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: spring-ws-server
+    env: java
+    branch: master
+    buildCommand: "./mvnw clean install"
+    startCommand: "java -jar target/*.jar"
+    envVars:
+      - key: JAVA_HOME
+        value: /opt/render/project/.render/java
