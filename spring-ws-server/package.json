@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mnn": "^0.0.0-alpha.0",
+    "mvn": "^3.5.0"
+  }
+}
